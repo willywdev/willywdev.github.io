@@ -1,8 +1,73 @@
-.material-symbols-sharp {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-  }
+* {
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+}
 
+body, html {
+  margin: 0;
+  height:100%;
+  background-color:#2264AB;
+}
+
+.logo {
+  display: table-cell;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.material-symbols-sharp {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  vertical-align: middle;
+  margin-bottom: 0.3%;
+}
+
+.header {
+  display: table;
+  width: 100%;
+  background-color: #0e2a47;
+  padding-bottom: 5%;
+}
+
+nav {
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+  padding-right:2.5%;
+}
+
+nav li {
+  list-style-type: none;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: inline;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5596db;
+}
+
+.main {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M 0%2c150 C 57.6%2c147.6 172.8%2c115 288%2c138 C 403.2%2c161 460.8%2c287.4 576%2c265 C 691.2%2c242.6 748.8%2c36.8 864%2c26 C 979.2%2c15.2 1036.8%2c211.6 1152%2c211 C 1267.2%2c210.4 1382.4%2c60.6 1440%2c23L1440 560L0 560z' fill='%23184a7e'%3e%3c/path%3e%3cpath d='M 0%2c339 C 96%2c374.4 288%2c505.2 480%2c516 C 672%2c526.8 768%2c392.4 960%2c393 C 1152%2c393.6 1344%2c493.8 1440%2c519L1440 560L0 560z' fill='%232264ab'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  padding-left: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  height: 60%;
+}
+
+h1 {
+  margin: 0px;
+}
+
+svg {
+  fill: white;
+}
+
+#email:hover {
+  background-color: #2264AB;
+}
