@@ -1,6 +1,6 @@
 /* Für Smartphone und sehr schmale Geräte */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) and (orientation:portrait) {
 
     /* Ab hier beginnt der Header  */
 
