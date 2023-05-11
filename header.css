@@ -5,7 +5,7 @@ header {
     width:100%;
     align-items: center;
     backdrop-filter: blur(10px);
-    font-weight:600px;
+    font-weight:600;
     margin:0;
     padding-top:3.5vw;
 }
@@ -19,14 +19,13 @@ header {
 
 #logo-text {
     font-family: 'Carattere', cursive;
-    font-size:60px;
+    font-size:4rem;
     padding:0;
 }
 
 .navigation-links {
     list-style:none;
     font-weight:600;
-   
 }
 
 .navigation-links li {
@@ -46,19 +45,19 @@ header {
     border-radius:5px;
 }
 
-a {
+header a {
     color:#e3e3e3;
     text-decoration: none;
 }
 
-a:hover {
+header a:hover {
     background-color:rgb(249, 89, 89);
     padding-top:0.25rem;
     padding-bottom:0.25rem;
     border-radius:5px;
 }
 
-a #home:hover {
+header a #home:hover {
     padding-top:0.25rem;
     padding-bottom:0.25rem;
     background-color:rgb(249, 89, 89);

@@ -15,7 +15,7 @@ main h1 {
 
 main p {
     text-shadow: 1px 1px 3px #233142;
-    font-size:1.1rem;
+    font-size:1rem;
 }
 
 .main-element-1 {
@@ -25,6 +25,8 @@ main p {
     padding:10px;
     border: 1px solid rgba(227, 227, 227,20%);
     box-shadow: 5px 5px 10px rgba(35, 49, 66,30%);
+    height:clamp(18vh, 18vh, 20vh);
+    box-sizing: content-box;
  }
 
  .main-element-2 {
@@ -33,7 +35,9 @@ main p {
     border: 1px solid rgba(227, 227, 227,20%);
     box-shadow: 5px 5px 10px rgba(35, 49, 66,30%);
     padding:10px;
-    margin-top:15vh;
+    margin-top:12vh;
+    text-align:center;
+    box-sizing: content-box;
     max-width:60vw;
 }
 
@@ -42,4 +46,15 @@ main p {
     margin-top:-10vh;
     margin-left: 4vw;
     width:27vw;
+}
+
+.github {
+    width: 75px;
+    height: 75px;
+    opacity: 65%;
+}
+
+.break {
+    width:100vw;
+    border:none;
 }

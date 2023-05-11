@@ -1,0 +1,27 @@
+/* Für Smartphone und sehr schmale Geräte */
+
+@media screen and (max-width: 500px) {
+    #logo-text {
+        font-family: 'Carattere', cursive;
+        font-size:3rem;
+        padding:0;
+    }
+
+    .navigation-links {
+        display:none;
+    }
+
+    main h1 {
+        font-size:1.3rem;
+        text-align:center;
+    }
+
+    main p {
+        text-align:center;
+    }
+
+    #landing-page-picture {
+        display:none;
+    }
+  }
+
