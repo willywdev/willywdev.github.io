@@ -24,14 +24,25 @@
 
     /* Ab hier beginnt Block Main */
 
+    .main-element-1 {
+            max-width:85vw;
+    }
+
+    .main-element-2 {
+        max-width:85vw;
+}
+
     main h1 {
         font-size:1.3rem;
         text-align:center;
+        text-shadow: none;
     }
 
     main p {
         text-align:center;
-        font-size:0.75rem;
+        font-size:0.85rem;
+        font-weight:600;
+        text-shadow: none;
     }
 
     #landing-page-picture {
