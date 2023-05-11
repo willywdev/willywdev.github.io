@@ -1,7 +1,7 @@
 main {
     backdrop-filter: blur(10px);
     display:flex;
-    justify-content:space-between;
+    justify-content: center;
     margin-top:10vh;
 }
 
@@ -15,6 +15,7 @@ main h1 {
 
 main p {
     text-shadow: 1px 1px 3px #233142;
+    font-size:1.1rem;
 }
 
 .main-element-1 {
@@ -24,7 +25,7 @@ main p {
     padding:10px;
     border: 1px solid rgba(227, 227, 227,20%);
     box-shadow: 5px 5px 10px rgba(35, 49, 66,30%);
-    margin-left:15vw;
+    max-height:20vh;
  }
 
  .main-element-2 {
@@ -34,7 +35,5 @@ main p {
     padding:10px;
     border: 1px solid rgba(227, 227, 227,20%);
     box-shadow: 5px 5px 10px rgba(35, 49, 66,30%);
-    margin-right:15vw;
-    height:40vh;
-    margin-left:5vw;
+    margin-left:3vw;
  }
