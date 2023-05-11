@@ -1,8 +1,8 @@
 main {
-    backdrop-filter: blur(10px);
     display:flex;
     justify-content: center;
     margin-top:10vh;
+    flex-wrap: wrap;
 }
 
 main h1 {
@@ -25,20 +25,21 @@ main p {
     padding:10px;
     border: 1px solid rgba(227, 227, 227,20%);
     box-shadow: 5px 5px 10px rgba(35, 49, 66,30%);
-    max-height:20vh;
  }
 
  .main-element-2 {
-    max-width:30vw;
     background-color:rgba(227, 227, 227,5%);
     border-radius:10px;
-    padding:10px;
     border: 1px solid rgba(227, 227, 227,20%);
     box-shadow: 5px 5px 10px rgba(35, 49, 66,30%);
-    margin-left:3vw;
- }
+    padding:10px;
+    margin-top:15vh;
+    max-width:60vw;
+}
+
 
 #landing-page-picture {
-    position:relative;
-    width:20vw;
+    margin-top:-10vh;
+    margin-left: 4vw;
+    width:27vw;
 }
