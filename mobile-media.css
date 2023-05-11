@@ -1,6 +1,13 @@
 /* Für Smartphone und sehr schmale Geräte */
 
 @media screen and (max-width: 500px) {
+
+    /* Ab hier beginnt der Header  */
+
+    header {
+        justify-content: space-between;
+    }
+    
     #logo-text {
         font-family: 'Carattere', cursive;
         font-size:3rem;
@@ -10,6 +17,12 @@
     .navigation-links {
         display:none;
     }
+
+    .hamburger {
+        display: block;
+    }
+
+    /* Ab hier beginnt Block Main */
 
     main h1 {
         font-size:1.3rem;
@@ -23,5 +36,7 @@
     #landing-page-picture {
         display:none;
     }
+
+
   }
 
