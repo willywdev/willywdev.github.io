@@ -2,11 +2,11 @@ main {
     backdrop-filter: blur(10px);
     display:flex;
     justify-content:space-between;
-    margin-top:7.5vh;
+    margin-top:10vh;
 }
 
 main h1 {
-    font-size:1.5rem;
+    font-size:1.7rem;
     margin-bottom:1vh;
     margin-top:-6vh;
     margin-bottom:3vh;
@@ -23,7 +23,7 @@ main p {
     padding:10px;
     border: 1px solid rgba(227, 227, 227,20%);
     box-shadow: 5px 5px 10px rgba(35, 49, 66,30%);
-    margin-left:3vw;
+    margin-left:15vw;
  }
 
  .main-element-2 {
@@ -33,9 +33,9 @@ main p {
     padding:10px;
     border: 1px solid rgba(227, 227, 227,20%);
     box-shadow: 5px 5px 10px rgba(35, 49, 66,30%);
-    margin-right:5vw;
+    margin-right:15vw;
     height:40vh;
-    margin-left:3vw;
+    margin-left:5vw;
  }
 
 hr {
