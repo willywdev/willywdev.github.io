@@ -37,3 +37,8 @@ main p {
     box-shadow: 5px 5px 10px rgba(35, 49, 66,30%);
     margin-left:3vw;
  }
+
+#landing-page-picture {
+    position:relative;
+    width:20vw;
+}
