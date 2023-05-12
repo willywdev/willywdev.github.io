@@ -1,59 +1,51 @@
 main {
     display:flex;
-    justify-content: center;
+    justify-content:center;
     margin-top:10vh;
-    flex-wrap: wrap;
-}
-
-main h1 {
+    flex-wrap:wrap
+    }
+    
+    main h1 {
     font-size:1.7rem;
     margin-bottom:1vh;
     margin-top:-6vh;
     margin-bottom:3vh;
-    text-shadow: 1px 1px 3px #233142;
-}
-
-main p {
-    text-shadow: 1px 1px 3px #233142;
-    font-size:1rem;
-}
-
-.main-element-1 {
+    text-shadow:1px 1px 3px #233142
+    }
+    
+    main p {
+    text-shadow:1px 1px 3px #233142;
+    font-size:1rem
+    }
+    
+    .main-element {
     max-width:60vw;
-    background-color:rgba(227, 227, 227,5%);
+    background-color:rgba(227,227,227,5%);
     border-radius:10px;
-    padding:0.5rem;
-    border: 1px solid rgba(227, 227, 227,20%);
-    box-shadow: 5px 5px 10px rgba(35, 49, 66,30%);
-    box-sizing: content-box;
- }
-
- .main-element-2 {
-    background-color:rgba(227, 227, 227,5%);
-    border-radius:10px;
-    border: 1px solid rgba(227, 227, 227,20%);
-    box-shadow: 5px 5px 10px rgba(35, 49, 66,30%);
-    padding:0.5rem;
+    padding:.5rem;
+    border:1px solid rgba(227,227,227,20%);
+    box-shadow:5px 5px 10px rgba(35,49,66,30%);
+    box-sizing:content-box
+    }
+    
+    .main-element:nth-child(even) {
     margin-top:12vh;
-    text-align:center;
-    box-sizing: content-box;
-    max-width:60vw;
-}
-
-
-#landing-page-picture {
+    text-align:center
+    }
+    
+    #landing-page-picture {
     margin-top:-10vh;
-    margin-left: 4vw;
-    width:27vw;
-}
-
-.github {
-    width: 75px;
-    height: 75px;
-    opacity: 65%;
-}
-
-.break {
+    margin-left:4vw;
+    width:27vw
+    }
+    
+    .github {
+    width:75px;
+    height:75px;
+    opacity:65%
+    }
+    
+    .break {
     width:100vw;
-    border:none;
-}
+    border:none
+    }
