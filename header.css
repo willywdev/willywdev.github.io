@@ -68,3 +68,7 @@ header a #home:hover {
     height:50px;
     width:50px;
 }
+
+.darkmode {
+float:right;
+}
