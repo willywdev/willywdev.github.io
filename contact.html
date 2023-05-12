@@ -15,28 +15,48 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="google-icons.css">
+    <link rel="stylesheet" href="mobile-media.css">
+    <link rel="stylesheet" href="hamburger-menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
 <body>
     <header>
         <ul class="navigation-links">
-          <li><a href="index.html"><span class="nav-buttons">Home</span></a></li>
+          <li><a href="index.html"><span class="nav-buttons" id="home">Home</span></a></li>
           <li><a href="skills.html"><span class="nav-buttons">Fähigkeiten</span></a></li>
         </ul>
       </div>
-
-      <div class="navbar-h1  animate__animated animate__zoomInLeft animate__slower">
+      <div class="navbar-h1">
+      <!-- Animation einfügen
+        <div class="navbar-h1  animate__animated animate__zoomInLeft animate__slow"> -->
         <h1 id="logo-text">Willy W.</h1>
       </div>
-      
         <ul class="navigation-links">
           <li><a href="projects.html"><span class="nav-buttons">Projekte</span></a></li>
-          <li><a href="contact.html"><span class="nav-buttons" id="home">Kontakt</span></a></li>
+          <li><a href="contact.html"><span class="nav-buttons">Kontakt</span></a></li>
         </ul>
-
-
+      <!-- Hamburger Menü für schmale Geräte -->
+      <img src="images/iconmonstr-menu-right-lined.svg" alt="hamburger-menu" class="hamburger">
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      
+      <div class="main-element">
+        <h1>Kontakt 📮</h1><br>
+        <div class="contact">
+        <label for="Name">Name: </label><input type="text" id="Name" required><br><br>
+        <label for="Firma">Firma: </label><input type="text" id="Firma" required><br><br>
+        <label for="email">E-Mail: </label><input type="email" id="email"  required><br><br>
+        <label for="message">Ihre Nachricht: <br></label><textarea id="message" required></textarea><br><br>
+        <input type="submit" value="Senden">
+      </div>
+    </div>
+
+    <img src="images/undraw_programming_re_kg9v.svg" alt="A picture showing a computer and programming pictures." id="landing-page-picture">
+    <hr class="break">
+    
+    </main>
+    <footer>
+      <p>&#128679; This site is still under construction! &#128679;</p>
+    </footer>
 </body>
 </html>

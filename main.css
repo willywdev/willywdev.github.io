@@ -1,51 +1,62 @@
 main {
-    display:flex;
-    justify-content:center;
-    margin-top:10vh;
-    flex-wrap:wrap
-    }
-    
-    main h1 {
-    font-size:1.7rem;
-    margin-bottom:1vh;
-    margin-top:-6vh;
-    margin-bottom:3vh;
-    text-shadow:1px 1px 3px #233142
-    }
-    
-    main p {
-    text-shadow:1px 1px 3px #233142;
-    font-size:1rem
-    }
-    
-    .main-element {
-    max-width:60vw;
-    background-color:rgba(227,227,227,5%);
-    border-radius:10px;
-    padding:1rem;
-    border:1px solid rgba(227,227,227,20%);
-    box-shadow:5px 5px 10px rgba(35,49,66,30%);
-    box-sizing:content-box
-    }
-    
-    .main-element:nth-child(even) {
-    margin-top:12vh;
-    text-align:center
-    }
-    
-    #landing-page-picture {
-    margin-top:-10vh;
-    margin-left:4vw;
-    width:27vw
-    }
-    
-    .github {
-    width:75px;
-    height:75px;
-    opacity:65%
-    }
-    
-    .break {
-    width:100vw;
-    border:none
-    }
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  flex-wrap: wrap;
+}
+
+main h1 {
+  font-size: 1.7rem;
+  margin-bottom: 1vh;
+  margin-top: -7vh;
+  margin-bottom: 3vh;
+  text-shadow: 1px 1px 3px #233142;
+}
+
+main p {
+  text-shadow: 1px 1px 3px #233142;
+  font-size: 1rem;
+}
+
+.main-element {
+  max-width: 60vw;
+  background-color: rgba(227, 227, 227, 5%);
+  border-radius: 10px;
+  padding: 1rem;
+  border: 1px solid rgba(227, 227, 227, 20%);
+  box-shadow: 5px 5px 10px rgba(35, 49, 66, 30%);
+  box-sizing: content-box;
+  text-align: center;
+}
+
+.main-element:nth-child(even) {
+  margin-top: 12vh;
+  text-align: center;
+}
+
+#landing-page-picture {
+  margin-top: -10vh;
+  margin-left: 4vw;
+  width: 27vw;
+}
+
+.socials {
+  width: 75px;
+  height: 75px;
+  opacity: 50%;
+}
+
+.socials:hover {
+  opacity: 80%;
+}
+
+.break {
+  width: 100vw;
+  border: none;
+}
+
+.contact {
+  display: table;
+  margin-left:auto;
+  margin-right:auto;
+}

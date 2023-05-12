@@ -4,7 +4,6 @@ header {
     position: sticky;
     width:100%;
     align-items: center;
-    backdrop-filter: blur(10px);
     font-weight:600;
     margin:0;
     padding-top:3.5vw;
@@ -67,8 +66,4 @@ header a #home:hover {
     display:none;
     height:50px;
     width:50px;
-}
-
-.darkmode {
-float:right;
 }

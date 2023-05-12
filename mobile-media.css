@@ -12,10 +12,6 @@
         padding:0;
     }
 
-    .navigation-links {
-        display:none;
-    }
-
     .hamburger {
         display: block;
         margin-right:5vw;
@@ -39,6 +35,10 @@
     }
     #landing-page-picture {
         display:none;
+    }
+    .socials {
+        width:60px;
+        height:60px;
     }
   }
 
@@ -90,10 +90,10 @@
     #landing-page-picture {
         display:none;
     }
-
-    .github {
-        display:block;
-        margin:auto;
+    .socials {
+        width:60px;
+        height:60px;
     }
+
   }
 
