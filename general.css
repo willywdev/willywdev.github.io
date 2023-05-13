@@ -1,3 +1,9 @@
+:root {
+  --bg-color: #233142;
+  --bg-light: #455d7a;
+  --text-font: #e3e3e3;
+}
+
 body,
 input[type="submit"] {
   background-color: #233142;
