@@ -2,24 +2,34 @@
   --bg-color: #233142;
   --bg-light: #455d7a;
   --text-font: #e3e3e3;
+  --accent: #68e1fd;
 }
 
 body,
 input[type="submit"] {
-  background-color: #233142;
+  background-color: var(--bg-color);
   color: #e3e3e3;
+  box-sizing: border-box;
 }
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
   scroll-behavior: smooth;
 }
 body {
   font-family: "Open Sans", sans-serif;
-  background: linear-gradient(180deg, #233142, #233142, #455d7a);
+  background: linear-gradient(180deg, #233142, #233142, #233142, #455d7a);
   min-height: 100vh;
-  box-sizing: inherit;
+}
+h1 {
+  color: var(--accent);
+}
+h2 {
+  color: var(--accent);
+}
+h3 {
+  color: var(--accent);
 }
 textarea {
   border: none;
