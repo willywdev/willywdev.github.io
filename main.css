@@ -16,21 +16,22 @@ main {
 
 .main-element:nth-child(even) {
   margin-top: 5vh;
-  margin-left:7vw;
-  padding:1rem;
+  margin-left: 7vw;
+  padding: 1rem;
 }
 
 #landing-page-picture {
-  position:absolute;
-  margin-left: 50vw;
-  width: 27vw;
+  position: absolute;
+  right: 10vw;
+  max-width: 27vw;
+  height: auto;
+  z-index: -1;
 }
-
 .socials {
   width: 50px;
   height: 50px;
   opacity: 50%;
-  fill:red;
+  fill: red;
 }
 
 .socials:hover {
@@ -44,6 +45,6 @@ main {
 
 .contact {
   display: table;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -1,156 +1,177 @@
+body,
+input[type="submit"] {
+  background-color: #233142;
+  color: #e3e3e3;
+}
 * {
-   margin: 0; 
-   padding: 0; 
-   box-sizing: border-box;
-   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-
 body {
-      background-color: #233142;
-      font-family: 'Open Sans', sans-serif;
-      color:#e3e3e3;
-      background: linear-gradient(180deg,#233142,#233142, #455d7a);
-      min-height: 100vh;
-      box-sizing:inherit;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(180deg, #233142, #233142, #455d7a);
+  min-height: 100vh;
+  box-sizing: inherit;
 }
-
 textarea {
-      border:none;
-      width:50vw;
-      height:20vh;
-      border-radius: 10px;
-      background-color: #e3e3e3;
-      padding:5px;
-      resize:none;
+  border: none;
+  width: 50vw;
+  height: 20vh;
+  border-radius: 10px;
+  background-color: #e3e3e3;
+  padding: 5px;
+  resize: none;
 }
-
 input {
-      border:none;
-      height:25px;
-      border-radius:5px;
-      padding:2px;
-      width:30vw;
+  border: none;
+  height: 25px;
+  border-radius: 5px;
+  padding: 2px;
+  width: 30vw;
 }
-
 label {
-      font-weight:bold;
-      font-size: 0.9rem;
-      margin-top:1rem;
-      margin-bottom:2rem;
-      
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
-
-input[type=submit]  {
-      background-color:#233142;
-      color: #e3e3e3;
-      font-weight:bold;
-      height:50px;
-      width:100px;
-      border-radius:40px;
+input[type="submit"] {
+  font-weight: 700;
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
 }
-
 .wrapper {
-      margin-left: 10vw;
-      margin-right:10vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
-
-/* Für Smartphone und sehr schmale Geräte */
 @media screen and (max-width: 640px) {
-      /* Ab hier beginnt der Header  */
-      main {
-          justify-content:center;
-          vertical-align:middle;
-      }
-  
-  
-      #logo-text {
-          font-family: 'Carattere', cursive;
-          font-size:3rem;
-          padding:0;
-      }
-  
-      .hamburger {
-          display: block;
-          
-      }
-  
-      main h1 {
-          font-size:1.3rem;
-          text-align:center;
-          text-shadow: none;
-      }
-      main p {
-          text-align:center;
-          font-size:0.85rem;
-          font-weight:600;
-          text-shadow: none;
-      }
-      #landing-page-picture {
-          display:none;
-      }
-      .socials {
-          width:60px;
-          height:60px;
-      }
-    }
-  
-  
-  
-    @media screen and (max-width: 768px) {
-      /* Ab hier beginnt der Header  */
-      
-      #logo-text {
-          font-family: 'Carattere', cursive;
-          font-size:4rem;
-          padding:0;
-      }
-  
-      .navigation-links {
-          display:none;
-      }
-  
-      .hamburger {
-          display: block;
-      }
-  
-  
-      /* Ab hier beginnt Block Main */
-  
-      .main-element {
-          vertical-align:middle;
-          text-align:center;
-          padding:0;
-          max-width:100%;
-      }
-  
-      main h1 {
-          font-size:1.2rem;
-          text-align:center;
-          text-shadow: none;
-      }
-  
-      main h2 {
-          font-size:1.1rem;
-      }
-  
-      main p {
-          text-align:center;
-          font-size:0.9rem;    
-          text-shadow: none;
-      }
-  
-      #landing-page-picture {
-          display:none;
-      }
-      .socials {
-          width:60px;
-          height:60px;
-      }
-      .wrapper {
-          margin-left: 2vw;
-          margin-right:2vw;
-    }
-  
-    }
-  
-  
+  main h1,
+  main p {
+    text-align: center;
+    text-shadow: none;
+  }
+  main {
+    justify-content: center;
+    vertical-align: middle;
+  }
+  #logo-text {
+    font-family: Carattere, cursive;
+    font-size: 3rem;
+    padding: 0;
+  }
+  .hamburger {
+    display: block;
+  }
+  main h1 {
+    font-size: 1.3rem;
+  }
+  main p {
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  #landing-page-picture {
+    display: none;
+  }
+  .socials {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main h1,
+  main p {
+    text-align: center;
+    text-shadow: none;
+  }
+  #logo-text {
+    font-family: Carattere, cursive;
+    font-size: 4rem;
+    padding: 0;
+  }
+  #landing-page-picture,
+  .navigation-links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .main-element {
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+    max-width: 100%;
+  }
+  main h1 {
+    font-size: 1.2rem;
+  }
+  main h2 {
+    font-size: 1.1rem;
+  }
+  main p {
+    font-size: 0.9rem;
+  }
+  .socials {
+    width: 60px;
+    height: 60px;
+  }
+  .wrapper {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main-element,
+  main {
+    vertical-align: middle;
+  }
+  main h1,
+  main p {
+    text-align: center;
+    text-shadow: none;
+  }
+  #logo-text {
+    font-family: Carattere, cursive;
+    font-size: 4rem;
+    padding: 0;
+  }
+  #landing-page-picture,
+  .navigation-links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  main {
+    justify-content: center;
+  }
+  .main-element {
+    text-align: center;
+    padding: 2rem;
+    max-width: 100%;
+  }
+  main h1 {
+    font-size: 1.2rem;
+  }
+  main h2 {
+    font-size: 1.1rem;
+  }
+  main p {
+    font-size: 0.9rem;
+  }
+  .socials {
+    width: 60px;
+    height: 60px;
+  }
+  .wrapper {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+}
+@media screen and (max-width: 1299px) {
+  #landing-page-picture {
+    display: none;
+  }
+}
