@@ -13,15 +13,18 @@ main {
   box-sizing: content-box;
 }
 .main-element:nth-child(2n) {
-  margin-top: 5vh;
-  margin-left: 7vw;
-  padding: 1rem;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #landing-page-picture {
   position: absolute;
-  top: 15vh;
-  right: 10vw;
-  width: clamp(300px, 50%, 600px);
+  top: 10vh;
+  right: 0px;
+  object-fit: contain;
+  z-index: -1;
+  max-width: 60vw;
 }
 .socials {
   width: 50px;
@@ -43,7 +46,6 @@ main {
   border: none;
 }
 .contact {
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
+  display: grid;
+  grid-gap: 1rem;
 }

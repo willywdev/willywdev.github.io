@@ -2,7 +2,8 @@
   --bg-color: #233142;
   --bg-light: #455d7a;
   --text-font: #e3e3e3;
-  --accent: #68e1fd;
+  --accent: #f3f3f3;
+  --accent2: #cea1fa;
 }
 
 body,
@@ -31,37 +32,56 @@ h2 {
 h3 {
   color: var(--accent);
 }
+button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 2px 16px;
+  height: 38px;
+  min-width: 96px;
+  min-height: 38px;
+  border: none;
+  color: #fff;
+  background-color: rgb(88, 101, 242);
+  transition: background-color 0.17s ease, color 0.17s ease;
+}
+button:hover {
+  background-color: rgb(71, 82, 196);
+}
+.button-text {
+  font-weight: bold;
+}
 textarea {
   border: none;
   width: 50vw;
   height: 20vh;
   border-radius: 10px;
-  background-color: #e3e3e3;
+  background-color: var(--text-font);
   padding: 5px;
   resize: none;
 }
 input {
-  border: none;
-  height: 25px;
+  width: 250px;
+  height: 20px;
   border-radius: 5px;
-  padding: 2px;
-  width: 30vw;
+  background-color: var(--text-font);
+  box-shadow: none;
+  border: none;
+  padding: 3px;
 }
 label {
-  font-weight: 700;
-  font-size: 0.9rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-input[type="submit"] {
-  font-weight: 700;
-  height: 50px;
-  width: 100px;
-  border-radius: 40px;
+  max-width: 150px;
 }
 .wrapper {
   margin-left: 10vw;
   margin-right: 10vw;
+}
+.centerer {
+  margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
   main h1,
