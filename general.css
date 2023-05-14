@@ -27,15 +27,12 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  color: var(--accent);
-}
-h2 {
-  color: var(--accent);
-}
+h1,
+h2,
 h3 {
   color: var(--accent);
 }
+
 button {
   display: inline-block;
   outline: none;
@@ -196,6 +193,9 @@ section.landing {
   }
 }
 @media screen and (max-width: 1000px) {
+  body {
+    margin-top: -5vh;
+  }
   .main-element,
   main {
     vertical-align: middle;
