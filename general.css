@@ -98,6 +98,13 @@ section {
   overflow-y: scroll;
   height: 100vh;
 }
+section.landing {
+  background-image: url(/images/landing-picture-2.svg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-attachment: fixed;
+}
 
 /* MEDIA QUERIES */
 
@@ -229,7 +236,7 @@ section {
   }
 }
 @media screen and (max-width: 1299px) {
-  #landing-page-picture {
-    display: none;
+  section.landing {
+    background-image: none;
   }
 }
