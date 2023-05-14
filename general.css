@@ -4,6 +4,7 @@
   --text-font: #e3e3e3;
   --accent: #f3f3f3;
   --accent2: #cea1fa;
+  --section2bg: #120b4c;
 }
 
 body,
@@ -22,6 +23,9 @@ body {
   font-family: "Open Sans", sans-serif;
   background: linear-gradient(180deg, #233142, #233142, #233142, #455d7a);
   min-height: 100vh;
+}
+a:not(#home):hover {
+  color: var(--accent2);
 }
 h1 {
   color: var(--accent);

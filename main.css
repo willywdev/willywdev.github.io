@@ -43,7 +43,7 @@ section {
   height: 100vh;
 }
 
-.section-2-background {
-  background-color: black;
+.page-2 {
+  background-color: var(--section2bg);
   width: 100vw;
 }
