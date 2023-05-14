@@ -5,6 +5,8 @@
   --accent: #f3f3f3;
   --accent2: #cea1fa;
   --section2bg: #120b4c;
+  --section3bg: #685fb3;
+  --section4bg: #52d830;
 }
 
 body,
@@ -24,8 +26,17 @@ body {
   background: linear-gradient(180deg, #233142, #233142, #233142, #455d7a);
   min-height: 100vh;
 }
-a:not(#home):hover {
+a {
+  transition: all 200ms ease-in-out;
+}
+a:hover {
   color: var(--accent2);
+  border-bottom: 2px var(--accent2) solid;
+  background-color: #cda1fa21;
+  padding: 5px;
+}
+#home:hover {
+  color: none;
 }
 h1 {
   color: var(--accent);
