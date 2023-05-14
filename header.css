@@ -8,7 +8,7 @@ header {
 }
 
 .navbar-h1 {
-  margin-top: 1vw;
+  margin-top: 1vh;
 }
 
 #logo-text {
@@ -26,16 +26,25 @@ header {
 
 .navigation-links li {
   float: left;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  transition: 200ms ease-in;
+  margin: 1rem;
+  padding: 0.7rem;
+  border-bottom: 2px transparent solid;
 }
-.nav-buttons {
-  padding: 0.5rem;
+
+.navigation-links li:hover {
+  padding: 0.7rem;
+  color: var(--accent2);
+  border-bottom: 2px var(--accent2) solid;
+  background-color: #cda1fa21;
 }
 
 header a {
   color: var(--text-font);
   text-decoration: none;
+  margin: 1rem;
+  padding: 1rem;
+  border-bottom: 2px transparent solid;
 }
 
 .hamburger {

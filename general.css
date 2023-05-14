@@ -26,15 +26,7 @@ body {
   background: linear-gradient(180deg, #233142, #233142, #233142, #455d7a);
   min-height: 100vh;
 }
-.navigation-links li {
-  transition: 200ms ease-in;
-}
-.navigation-links li:hover {
-  color: var(--accent2);
-  border-bottom: 2px var(--accent2) solid;
-  background-color: #cda1fa21;
-  padding: 5px;
-}
+
 h1 {
   color: var(--accent);
 }

@@ -49,11 +49,12 @@ section {
   background-color: var(--section3bg);
 }
 .page-4 {
+  flex-direction: column;
   background-color: var(--bg-color);
 }
 #contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  fonts-size: 1rem;
+  font-size: 1rem;
 }
