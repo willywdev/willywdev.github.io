@@ -10,3 +10,23 @@ footer {
   font-weight: bold;
   border-top: solid 1px rgba(0, 0, 0, 50%);
 }
+
+.back-to-top svg {
+  display: block;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+}
+
+.back-to-top {
+  text-align: center;
+  opacity: 75%;
+}
+
+.back-to-top a {
+  text-decoration: none;
+}
+.back-to-top:hover * {
+  color: var(--accent2);
+  fill: var(--accent2);
+}
