@@ -46,6 +46,6 @@ main {
   border: none;
 }
 .contact {
-  display: grid;
-  grid-gap: 1rem;
+  display: inline-block;
+  text-align: start;
 }
