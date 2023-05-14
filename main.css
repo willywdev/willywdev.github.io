@@ -13,10 +13,7 @@ main {
   box-sizing: content-box;
 }
 .main-element:nth-child(2n) {
-  position: absolute;
-  bottom: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 5vh;
 }
 #landing-page-picture {
   position: absolute;
@@ -48,4 +45,13 @@ main {
 .contact {
   display: inline-block;
   text-align: start;
+}
+
+section {
+  height: 100vh;
+}
+
+.section-2-background {
+  background-color: black;
+  width: 100vw;
 }

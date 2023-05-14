@@ -90,6 +90,17 @@ label {
 .centerer {
   margin: 0 auto;
 }
+section {
+  scroll-snap-align: start;
+}
+.scroll-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* MEDIA QUERIES */
+
 @media screen and (max-width: 640px) {
   main h1,
   main p {
@@ -124,6 +135,10 @@ label {
   }
 }
 @media screen and (max-width: 768px) {
+  main {
+    margin-top: 2vh;
+  }
+
   main h1,
   main p {
     text-align: center;
