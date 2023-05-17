@@ -201,8 +201,9 @@ section.landing {
   header {
     width: 100%;
     position: fixed;
-    padding-left: 2vw;
-    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-right: 4vw;
+    background-color: var(--bg-color);
   }
   header.navbar {
     height: 10vh;
@@ -318,5 +319,9 @@ section.landing {
   }
   .contact {
     text-align: center;
+  }
+  .wrapper {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
