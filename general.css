@@ -7,6 +7,7 @@
   --section2bg: #120b4c;
   --section3bg: #685fb3;
   --section4bg: #52d830;
+  --transparent-color: #2331422f;
 }
 
 body,
@@ -210,13 +211,29 @@ section.landing {
     font-size: 4rem;
     padding: 0;
   }
-  #landing-page-picture,
+  #landing-page-picture {
+    display: none;
+  }
   .navigation-links {
     display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 2vw;
+    top: 10vh;
+    text-align: center;
+    overflow: hidden;
+    background-color: var(--transparent-color);
+    border: 1px solid rgba(0, 0, 0, 0.699);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
   }
   .hamburger {
     display: block;
   }
+  .close-menu {
+    display: none;
+  }
+
   main {
     justify-content: center;
   }
