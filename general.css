@@ -66,11 +66,12 @@ textarea {
   background-color: var(--text-font);
   padding: 5px;
   resize: none;
+  margin-bottom: 2rem;
 }
 input {
   display: inline-block;
   width: 30vw;
-  height: 20px;
+  height: 30px;
   border-radius: 5px;
   background-color: var(--text-font);
   box-shadow: none;
@@ -82,8 +83,11 @@ label {
   display: inline-block;
   width: 50px;
   text-align: left;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+.page-4 h1 {
+  margin-bottom: 2rem;
 }
 #message-label {
   display: block;
@@ -222,8 +226,8 @@ section.landing {
     font-size: 4rem;
     padding: 0;
   }
-  #landing-page-picture {
-    display: none;
+  section.landing {
+    background-image: none;
   }
   .navigation-links {
     display: none;
@@ -231,20 +235,22 @@ section.landing {
     position: fixed;
     right: 0;
     top: 10vh;
-    text-align: center;
+    align-items: center;
     overflow: hidden;
     background-color: var(--bg-color);
     border-radius: 5px;
     height: 100vh;
     width: 100vw;
+    border: none;
   }
   .hamburger {
     display: block;
+    transition: 1s;
   }
   .close-menu {
     display: none;
+    transition: 1s;
   }
-
   main {
     justify-content: center;
   }

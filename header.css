@@ -19,11 +19,16 @@ header {
   font-size: 4rem;
   padding: 0;
   user-select: none;
+  order: 1;
 }
 
 .navigation-links {
   list-style: none;
   font-weight: 600;
+  order: 2;
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  border: 1px solid var(--accent2);
 }
 
 .navigation-links li {
