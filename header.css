@@ -40,11 +40,8 @@ header {
 }
 
 header a {
-  color: var(--text-font);
   text-decoration: none;
-  margin: 1rem;
-  padding: 1rem;
-  border-bottom: 2px transparent solid;
+  color: white;
 }
 
 .hamburger {
