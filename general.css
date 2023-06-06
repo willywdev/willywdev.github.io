@@ -10,6 +10,16 @@
   --transparent-color: #2331422f;
 }
 
+@font-face {
+  font-family: "Open Sans";
+  src: url(fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Carattere";
+  src: url(fonts/Carattere/Carattere-Regular.ttf);
+}
+
 body,
 input[type="submit"] {
   background-color: var(--bg-color);
