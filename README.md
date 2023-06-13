@@ -1,3 +1,5 @@
+## This project is currently paused, since im learning new Skills.
+
 ![](https://visitor-badge.laobi.icu/badge?page_id=willywdev.willywdev)
 
 <h1><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> HTML, CSS & JavaScript Learning Project</h1>
